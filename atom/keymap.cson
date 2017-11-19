@@ -1,0 +1,62 @@
+'atom-workspace atom-text-editor':
+  # Unset editor keybindings (conflict with multi-cursor-plus)
+  'alt-h':        'unset!'
+  'alt-j':       'unset!'
+  'alt-k':        'unset!'
+  'alt-l':       'unset!'
+
+'atom-workspace':
+  # Key bindings for multi-cursor-plus
+  'alt-x':                'multi-cursor-plus:mark'
+  'alt-k':               'multi-cursor-plus:move-up'
+  'alt-j':             'multi-cursor-plus:move-down'
+  'alt-h':             'multi-cursor-plus:move-left'
+  'alt-l':            'multi-cursor-plus:move-right'
+  'ctrl-alt-l':        'multi-cursor-plus:move-to-beginning-of-word'
+  'ctrl-alt-h':       'multi-cursor-plus:move-to-end-of-word'
+  # 'alt-home':             'multi-cursor-plus:move-to-first-character-of-line'
+  # 'alt-end':              'multi-cursor-plus:move-to-end-of-line'
+  # 'cmd-alt-home':        'multi-cursor-plus:move-to-top'
+  # 'ctrl-alt-end':         'multi-cursor-plus:move-to-bottom'
+  'alt-shift-k':         'multi-cursor-plus:select-up'
+  'alt-shift-j':       'multi-cursor-plus:select-down'
+  'alt-shift-h':       'multi-cursor-plus:select-left'
+  'alt-shift-l':      'multi-cursor-plus:select-right'
+  'ctrl-alt-shift-h':  'multi-cursor-plus:select-to-beginning-of-word'
+  'ctrl-alt-shift-l': 'multi-cursor-plus:select-to-end-of-word'
+  # 'alt-shift-home':       'multi-cursor-plus:select-to-first-character-of-line'
+  # 'alt-shift-end':        'multi-cursor-plus:select-to-end-of-line'
+  # 'ctrl-alt-shift-home':  'multi-cursor-plus:select-to-top'
+  # 'ctrl-alt-shift-end':   'multi-cursor-plus:select-to-bottom'
+
+
+'atom-text-editor.vim-mode-plus.normal-mode':
+  'escape': 'custom:cancel'
+  ':': 'vim-mode-plus-ex-mode:open'
+  '!': 'vim-mode-plus-ex-mode:toggle-setting'
+'.editor:not([mini])':
+  'alt-cmd-shift-right': 'window:focus-pane-on-right'
+  'alt-cmd-shift-left': 'window:focus-pane-on-left'
+  'alt-cmd-shift-up': 'window:focus-pane-above'
+  'alt-cmd-shift-down': 'window:focus-pane-below'
+'atom-workspace:not([mini])':
+  'cmd-alt-;': 'choose-pane:start'
+  'cmd-alt-,': 'choose-pane:focus-last-focused'
+'atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source js"]':
+  '-': 'vim-mode-plus-user:jasmine-increase-focus'
+  'ctrl--': 'vim-mode-plus-user:jasmine-decrease-focus'
+'.advanced-open-file atom-text-editor':
+  'cmd-k top': 'pane:split-up'
+  'cmd-k right': 'pane:split-right'
+  'cmd-k down': 'pane:split-down'
+  'cmd-k left': 'pane:split-left'
+
+'atom-text-editor':
+  'ctrl-alt-left': 'unset!'
+  'ctrl-alt-right': 'unset!'
+  'ctrl-alt-shift-left': 'unset!'
+  'ctrl-alt-shift-right': 'unset!'
+  'ctrl-alt-cmd-shift-left': 'word-jumper:move-left'
+  'ctrl-alt-cmd-shift-right': 'word-jumper:move-right'
+  'ctrl-alt-cmd-shift-a': 'word-jumper:select-left'
+  'ctrl-alt-cmd-shift-s': 'word-jumper:select-right'

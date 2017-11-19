@@ -1,0 +1,15 @@
+'.source.js':
+  'before each arrow':
+    'prefix': 'bfea'
+    'body': """
+      beforeEach(() => {
+        $1
+      });
+    """
+  'it arrow':
+    'prefix': 'ita'
+    'body': """
+      it($1, () => {
+        $2
+      });
+    """

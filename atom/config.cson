@@ -1,0 +1,219 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "5dfd3cc5-7f0f-48c3-a388-3b68f152a639"
+      analytics: false
+    js:
+      brace_style: "collapse-preserve-inline"
+      default_beautifier: "Pretty Diff"
+      end_with_comma: true
+      end_with_newline: true
+      indent_size: 2
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      showDiagnosticTraces: true
+  "atom-material-ui":
+    colors:
+      genAccent: true
+    tabs:
+      tintedTabBar: true
+    treeView:
+      compactList: true
+  "atom-package-deps":
+    ignored: [
+      "linter-flow"
+      "flow-ide"
+    ]
+  "atom-spotified": {}
+  "atom-ternjs":
+    displayAboveSnippets: true
+    useSnippets: true
+  "atom-typescript": {}
+  autosave:
+    enabled: true
+  "autosave-plus":
+    enabled: true
+  core:
+    audioBeep: false
+    closeEmptyWindows: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "linter-jshint"
+      "scope-inspector"
+      "package-cop"
+      "about"
+      "archive-view"
+      "background-tips"
+      "language-c"
+      "language-clojure"
+      "language-coffee-script"
+      "language-csharp"
+      "language-go"
+      "language-make"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-property-list"
+      "language-python"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-sass"
+      "language-toml"
+      "metrics"
+      "package-generator"
+      "styleguide"
+      "welcome"
+      "autosave"
+      "emmet"
+      "nuclide-format-js"
+      "git-split-diff-hyperclick"
+      "hyperclick"
+      "js-hyperclick"
+      "atom-ternjs"
+      "node-debugger"
+      "atom-typescript"
+      "language-typescript"
+    ]
+    projectHome: "/Users/simonjentsch/hyphe"
+    telemetryConsent: "no"
+    themes: [
+      "nucleus-dark-ui"
+      "dash-syntax"
+    ]
+    titleBar: "custom"
+  "ctags-status": {}
+  editor:
+    fontFamily: "\"Ubuntu Mono\", \"inconsolata\""
+    preferredLineLength: 100
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "7aa3798c-a3e5-2bd6-870b-14c909857ade"
+  "git-blame":
+    columnWidth: 253
+  "git-log":
+    fontScale: 1.1
+  "git-plus":
+    experimental:
+      autoFetch: 2
+      customCommands: true
+    general:
+      _analyticsUserId: "60f38075-312c-4193-a6a6-937e83351f33"
+    remoteInteractions:
+      pullRebase: true
+  "ide-typescript": {}
+  linter: {}
+  "linter-eslint":
+    fixOnSave: true
+  "linter-jscs":
+    onlyConfig: true
+  "linter-tslint": {}
+  "linter-ui-default":
+    panelHeight: 300
+  minimap:
+    displayCodeHighlights: false
+    plugins:
+      codeglance: false
+      codeglanceDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": -5
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 100
+      "minimap-hide": false
+      "minimap-hideDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": -4
+    scrollAnimation: true
+    textOpacity: 0.3
+  "minimap-git-diff": {}
+  "night-light":
+    day: {}
+    location:
+      lat: 52.5355294
+      lng: 13.408735
+    night:
+      syntax: "firewatch-syntax"
+      ui: "nucleus-dark-ui"
+    schedule:
+      end: "4:47"
+      start: "21:25"
+  nuclide:
+    "nuclide-file-tree":
+      hideIgnoredNames: false
+    "nuclide-flow":
+      canUseFlowBin: true
+    use:
+      "nuclide-blame": false
+      "nuclide-blame-provider-hg": false
+      "nuclide-bookshelf": false
+      "nuclide-clang": false
+      "nuclide-ctags": false
+      "nuclide-debugger-php": false
+      "nuclide-diff-view": false
+      "nuclide-format-js": false
+      "nuclide-hack": false
+      "nuclide-hg-conflict-resolver": false
+      "nuclide-hg-repository": false
+      "nuclide-hhvm-toolbar": false
+      "nuclide-home": false
+      "nuclide-language-hack": false
+      "nuclide-objc": false
+      "nuclide-ocaml": false
+      "nuclide-source-control-side-bar": false
+  "package-sync":
+    createOnChange: true
+  "platformio-ide-terminal":
+    style:
+      fontFamily: "\"Meslo LG L for Powerline\""
+  "scope-inspector":
+    userId: "63e36f324e896a442383809fba10ba49d36e81b0"
+  "seti-syntax":
+    dynamicColor: false
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+    syncHorizontalScroll: true
+  "symbols-tree-view":
+    autoHide: true
+    autoToggle: true
+  tabs:
+    enableVcsColoring: true
+  "tree-view":
+    hideIgnoredNames: true
+  "vim-mode-plus":
+    highlightSearch: true
+  "vim-mode-plus-ex-mode":
+    notifiedUseExMode: true
+  "vim-mode-plus-jasmine-increase-focus": {}
+  welcome:
+    showOnStartup: false
+".editorconfig.source":
+  editor:
+    autoIndent: true

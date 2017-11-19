@@ -43,7 +43,10 @@
 
 - link:
     ~/.oh-my-zsh/custom/themes/bullet-train.zsh-theme: oh-my-zsh/custom/themes/bullet-train/bullet-train.zsh-theme
-    ~/.atom/packages.cson: packages.cson
+    ~/.atom/config.cson: atom/config.cson
+    ~/.atom/keymap.cson: atom/keymap.cson
+    ~/.atom/packages.cson: atom/packages.cson
+    ~/.atom/snippets.cson: atom/snippets.cson
     ~/Library/Application Support/Code/User/keybindings.json: VSCode/keybindings.json
     ~/Library/Application Support/Code/User/settings.json: VSCode/settings.json
     ~/Library/Application Support/Spectacle/Shortcuts.json: spectacle.json

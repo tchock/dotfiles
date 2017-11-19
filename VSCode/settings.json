@@ -1,0 +1,26 @@
+{
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.formatOnPaste": true,
+  "typescriptHero.resolver.stringQuoteStyle": "\"",
+  "vim.disableAnnoyingNeovimMessage": true,
+  "vim.overrideCopy": false,
+  "workbench.colorTheme": "Plastic",
+  "jest.autoEnable": false,
+  "git.enableSmartCommit": true,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'Ubuntu Mono', Menlo, Monaco, 'Courier New', monospace",
+  "window.zoomLevel": 0,
+  "tslint.autoFixOnSave": true,
+  "editor.rulers": [
+    100,
+    120
+  ],
+  "editor.tabSize": 2,
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.validate.enable": false,
+  "git.enableCommitSigning": true,
+  "eslint.autoFixOnSave": true,
+  "files.insertFinalNewline": true,
+  "editor.renderWhitespace": "boundary"
+}

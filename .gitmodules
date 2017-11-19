@@ -4,3 +4,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot.git
+[submodule "oh-my-zsh/custom/themes/bullet-train"]
+	path = oh-my-zsh/custom/themes/bullet-train
+	url = https://github.com/caiogondim/bullet-train.zsh

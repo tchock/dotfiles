@@ -1,0 +1,22 @@
+[core]
+	excludesfile = /Users/simon.jentsch/.gitignore_global
+	editor = atom --wait
+	autocrlf = false
+[user]
+	name = Simon Jentsch
+	email = sjentsch@hyphe.me
+	signingkey = 3FDC5126
+[commit]
+	template = /Users/simon.jentsch/.stCommitMsg
+[push]
+	default = simple
+[pull]
+	rebase = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[gpg]
+	program = gpg2

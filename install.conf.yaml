@@ -1,5 +1,39 @@
 - clean: ['~']
-
+- brew:
+    - git
+    - reattach-to-user-namespace
+    - tldr
+    - node
+    - yarn
+    - flow
+    - gpg
+- cask: 
+    - google-chrome
+    - firefox
+    - visual-studio-code
+    - atom
+    - slack
+    - postman
+    - 1password
+    - iterm2
+    - zeplin
+    - docker
+    - spectacle
+    - spotify
+    - istat-menus5
+    - alfred
+    - kap
+    - karabiner-elements
+    - caskroom/versions/google-chrome-canary
+    - caskroom/versions/firefox-beta
+    - vlc
+    - the-unarchiver
+    - telegram
+    - steam
+    - skype
+    - sequel-pro
+    - psequel
+    
 - link:
     ~/.gitconfig:
         path: gitconfig

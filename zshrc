@@ -2,7 +2,7 @@ eval "$(pyenv init -)"
 export DISABLE_AUTO_TITLE='true'
 export TERM="xterm-256color"
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/simon.jentsch/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 export RBENV_ROOT=/usr/local/var/rbenv
 
 # scala/conscript
@@ -111,7 +111,7 @@ source $ZSH/oh-my-zsh.sh
 alias tmuxvp="tmuxp load -d vp && tmux -CC attach -t vp"
 
 export ANDROID_HOME=~/Library/Android/sdk
-export PATH="$PATH:~.rbenv/bin:/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools:`yarn global bin`:$HOME/Library/Python/2.7/bin/Applications/Postgres.app/Contents/Versions/latest/bin:~/bin:/Users/simon.jentsch/Library/Python/2.7/bin"
+export PATH="$PATH:~.rbenv/bin:/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools:`yarn global bin`:$HOME/Library/Python/2.7/bin/Applications/Postgres.app/Contents/Versions/latest/bin:~/bin:~/Library/Python/2.7/bin"
 
 export EDITOR="atom"
 
@@ -130,13 +130,13 @@ eval "$(thefuck --alias FUCK)"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-export NVM_DIR="/Users/simon.jentsch/.nvm"
+export NVM_DIR="~/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-# source /Users/simon.jentsch/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+# source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
 
 
 # added by travis gem
-# [ -f /Users/simon.jentsch/.travis/travis.sh ] && source /Users/simon.jentsch/.travis/travis.sh
+# [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`

@@ -10,7 +10,7 @@ set tabstop=2
 set shiftwidth=2
 " On pressing tab, insert 4 spaces
 set expandtab
-source /Users/simon.jentsch/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
+source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
 set laststatus=2
 set clipboard=unnamed
 

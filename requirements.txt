@@ -1,0 +1,6 @@
+Click==7.0
+colorama==0.4.1
+kaptan==0.5.12
+libtmux==0.8.2
+PyYAML==5.1.1
+tmuxp==1.5.3

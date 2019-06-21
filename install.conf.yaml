@@ -6,35 +6,44 @@
     - tldr
     - node
     - yarn
-    - flow
+    - python
+    - awscli
+    - tig
     - gpg
+    - zsh
+    - fnm
+    - tmux
+    - tmuxp
+    - fzf
 
 - cask: 
-    - google-chrome
-    - firefox
+    - vlc
+    - the-unarchiver
+    - telegram
+    - istat-menus
+    - alfred
+    - karabiner-elements
+    - caskroom/versions/google-chrome-canary
+    - caskroom/versions/firefox-beta
     - visual-studio-code
-    - atom
-    - slack
     - postman
     - 1password
     - iterm2
     - zeplin
     - docker
+    - sketch
     - spectacle
     - spotify
-    - istat-menus5
-    - alfred
-    - kap
-    - karabiner-elements
-    - caskroom/versions/google-chrome-canary
-    - caskroom/versions/firefox-beta
-    - vlc
-    - the-unarchiver
-    - telegram
-    - steam
-    - skype
-    - sequel-pro
-    - psequel
+    - google-chrome
+    - firefox
+    - slack
+
+- pip:
+    file: requirements.txt
+    binary: /usr/local/bin/pip3
+    user: true    # Like --user
+    stdout: false # Print the execution stdout
+    stderr: true  # Print the execution stderr
 
 - shell:
     - [sh pre-install.sh, Running pre installation script]
@@ -43,10 +52,6 @@
 
 - link:
     ~/.oh-my-zsh/custom/themes/bullet-train.zsh-theme: oh-my-zsh/custom/themes/bullet-train/bullet-train.zsh-theme
-    ~/.atom/config.cson: atom/config.cson
-    ~/.atom/keymap.cson: atom/keymap.cson
-    ~/.atom/packages.cson: atom/packages.cson
-    ~/.atom/snippets.cson: atom/snippets.cson
     ~/Library/Application Support/Code/User/keybindings.json: VSCode/keybindings.json
     ~/Library/Application Support/Code/User/settings.json: VSCode/settings.json
     ~/Library/Application Support/Spectacle/Shortcuts.json: spectacle.json

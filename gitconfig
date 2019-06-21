@@ -1,11 +1,11 @@
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = atom --wait
+	editor = vim
 	autocrlf = false
 [user]
 	name = Simon Jentsch
-	email = sjentsch@hyphe.me
-	signingkey = 3FDC5126
+	email = simon.jentsch@deliveryhero.com
+	signingkey = FAED7D106232A710
 [commit]
 	template = ~/.stCommitMsg
 [push]
@@ -13,4 +13,4 @@
 [pull]
 	rebase = true
 [gpg]
-	program = gpg2
+	program = gpg

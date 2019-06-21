@@ -11,7 +11,7 @@
     - tig
     - gpg
     - zsh
-    - fnm
+    - Schniz/tap/fnm
     - tmux
     - tmuxp
     - fzf

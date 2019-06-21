@@ -14,6 +14,7 @@
     - Schniz/tap/fnm
     - tmux
     - tmuxp
+    - watchman
     - fzf
 
 - cask: 

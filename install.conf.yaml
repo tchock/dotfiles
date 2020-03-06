@@ -1,6 +1,12 @@
-- clean: ['~', '~/.oh-my-zsh/custom/', '~/.oh-my-zsh/custom/plugins/']
+- clean: 
+    - '~'
+    - '~/.oh-my-zsh/custom/'
+    - '~/.oh-my-zsh/custom/plugins/'
 
 - brew:
+    - broot
+    - watchman
+    - fzf
     - git
     - reattach-to-user-namespace
     - tldr
@@ -13,19 +19,9 @@
     - zsh
     - Schniz/tap/fnm
     - tmux
-    - tmuxp
-    - watchman
-    - fzf
 
 - cask: 
-    - vlc
-    - the-unarchiver
-    - telegram
-    - istat-menus
-    - alfred
-    - karabiner-elements
-    - caskroom/versions/google-chrome-canary
-    - caskroom/versions/firefox-beta
+    - marta
     - visual-studio-code
     - postman
     - 1password
@@ -35,6 +31,14 @@
     - sketch
     - spectacle
     - spotify
+    - vlc
+    - the-unarchiver
+    - telegram
+    - istat-menus
+    - alfred
+    - karabiner-elements
+    - caskroom/versions/google-chrome-canary
+    - caskroom/versions/firefox-beta
     - google-chrome
     - firefox
     - slack

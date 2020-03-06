@@ -1,17 +1,13 @@
 {
-  "atomKeymap.promptV3Features": true,
+  "editor.semanticHighlighting.enabled": true,
   "editor.multiCursorModifier": "alt",
-  "editor.formatOnPaste": true,
-  "typescriptHero.resolver.stringQuoteStyle": "\"",
-  "vim.disableAnnoyingNeovimMessage": true,
+  "editor.formatOnPaste": false,
   "vim.overrideCopy": false,
   "workbench.colorTheme": "Plastic",
-  "jest.autoEnable": false,
   "git.enableSmartCommit": true,
   "editor.fontSize": 13,
   "editor.fontFamily": "'Ubuntu Mono', Menlo, Monaco, 'Courier New', monospace",
   "window.zoomLevel": 0,
-  "tslint.autoFixOnSave": true,
   "editor.rulers": [
     100,
     120
@@ -19,11 +15,24 @@
   "editor.tabSize": 2,
   "workbench.startupEditor": "newUntitledFile",
   "javascript.validate.enable": false,
-  "git.enableCommitSigning": true,
   "eslint.autoFixOnSave": true,
   "files.insertFinalNewline": true,
   "editor.renderWhitespace": "boundary",
   "git.autofetch": true,
   "javascript.preferences.importModuleSpecifier": "relative",
-  "typescript.preferences.importModuleSpecifier": "relative"
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "vsintellicode.java.completionsEnabled": false,
+  "prettier.disableLanguages": [
+    "typescript",
+    "javascript",
+    "typescriptreact",
+    "javascriptreact"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false
 }

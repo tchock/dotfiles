@@ -5,12 +5,13 @@
 [user]
 	name = Simon Jentsch
 	email = simon.jentsch@deliveryhero.com
-	signingkey = FAED7D106232A710
 [commit]
 	template = ~/.stCommitMsg
 [push]
 	default = simple
 [pull]
 	rebase = true
-[gpg]
-	program = gpg
+[alias]
+  cleanup = !git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -D
+  p = !git push origin $(git rev-parse --abbrev-ref HEAD)
+

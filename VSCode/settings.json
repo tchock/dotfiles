@@ -12,6 +12,7 @@
     100,
     120
   ],
+  "editor.minimap.size": "fill",
   "editor.tabSize": 2,
   "workbench.startupEditor": "newUntitledFile",
   "javascript.validate.enable": false,
@@ -34,5 +35,8 @@
     "typescriptreact",
     "javascriptreact"
   ],
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
 }

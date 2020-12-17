@@ -37,15 +37,15 @@
     - spotify
     - vlc
     - the-unarchiver
-    - telegram
     - istat-menus
     - alfred
     - karabiner-elements
-    - caskroom/versions/google-chrome-canary
-    - caskroom/versions/firefox-beta
     - google-chrome
     - firefox
     - slack
+    # - caskroom/versions/google-chrome-canary
+    # - caskroom/versions/firefox-beta
+    # - telegram
 
 - pip:
     file: requirements.txt

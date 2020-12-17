@@ -19,6 +19,10 @@
     - zsh
     - Schniz/tap/fnm
     - tmux
+    - bat
+    - gh
+    - vifm
+    - ripgrep
 
 - cask: 
     - marta

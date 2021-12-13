@@ -4,15 +4,12 @@
     - '~/.oh-my-zsh/custom/plugins/'
 
 - brew:
-    - broot
     - watchman
     - fzf
-    - git
     - reattach-to-user-namespace
     - tldr
     - node
     - yarn
-    - python
     - awscli
     - tig
     - gpg
@@ -44,12 +41,12 @@
     # - caskroom/versions/firefox-beta
     # - telegram
 
-- pip:
-    file: requirements.txt
-    binary: /usr/local/bin/pip3
-    user: true    # Like --user
-    stdout: false # Print the execution stdout
-    stderr: true  # Print the execution stderr
+      #- pip#:
+      #  file: requirements.txt
+      #  binary: /usr/local/bin/pip3
+      #  user: true    # Like --user
+      # stdout: false # Print the execution stdout
+      # stderr: true  # Print the execution stderr
 
 - shell:
     - [sh pre-install.sh, Running pre installation script]
@@ -62,11 +59,11 @@
         create: false
         relink: false
         force: false
-    ~/.ssh/config:
-        path: ssh/config
-        create: true
-        relink: false
-        force: false
+          #    ~/.ssh/config:
+          # path: ssh/config
+          # create: true
+          # relink: false
+          #  force: false
     ~/.tmux.conf:
         path: tmux.conf
         create: false

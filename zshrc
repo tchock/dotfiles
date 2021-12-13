@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:/usr/local/opt/python/libexec/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/opt/python/libexec/bin:$HOME/dotfiles/scripts:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/simon.jentsch/.oh-my-zsh"
+export ZSH="/users/simonjentsch/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -68,7 +68,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git fzf-tab)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,22 +99,22 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-eval "`fnm env --multi`"
+eval "`fnm env `"
 
-  # Set Spaceship ZSH as a prompt
-  autoload -U promptinit; promptinit
-  prompt spaceship
+eval "$(starship init zsh)"
 
 export PATH="/usr/local/opt/terraform@0.12/bin:$PATH"
 
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/simon.jentsch/Documents/dhh/rps-restaurant-user-management/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/simon.jentsch/Documents/dhh/rps-restaurant-user-management/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/simon.jentsch/Documents/dhh/rps-restaurant-user-management/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/simon.jentsch/Documents/dhh/rps-restaurant-user-management/node_modules/tabtab/.completions/sls.zsh
-# tabtab source for slss package
-# uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /Users/simon.jentsch/Documents/dhh/rps-restaurant-user-management/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/simon.jentsch/Documents/dhh/rps-restaurant-user-management/node_modules/tabtab/.completions/slss.zsh
+alias e2run="/Users/simonjentsch/e2/in-context-testing/bin/run"
+alias r='ranger'
+alias ranger='RD=$HOME/.config/ranger/dir; ranger --choosedir=$RD; cd `cat $RD`'
+source ~/fzf-tab/fzf-tab.plugin.zsh
 
 
+#### FIG ENV VARIABLES ####
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
+
+function print0() {
+  awk 'BEGIN {ORS="\000";}; {print $0}';
+}

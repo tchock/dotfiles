@@ -23,26 +23,23 @@
     - gh
     - vifm
     - ripgrep
-
-- cask: 
-    - marta
-    - visual-studio-code
-    - postman
-    - 1password
-    - iterm2
-    - zeplin
-    - docker
-    - sketch
-    - spectacle
-    - spotify
-    - vlc
-    - the-unarchiver
-    - istat-menus
-    - alfred
-    - karabiner-elements
-    - google-chrome
-    - firefox
-    - slack
+    - --cask google-chrome
+    - --cask slack
+    - --cask visual-studio-code
+    - --cask spotify
+    - --cask figma
+    - --cask insomnia
+    - --cask 1password
+    - --cask iterm2
+    - --cask docker
+    - --cask spectacle
+    - --cask vlc
+    - --cask the-unarchiver
+    - --cask istat-menus
+    - --cask alfred
+    - --cask karabiner-elements
+    - --cask marta
+    - --cask firefox
     # - caskroom/versions/google-chrome-canary
     # - caskroom/versions/firefox-beta
     # - telegram
@@ -60,10 +57,6 @@
     - [mkdir -p ~/.oh-my-zsh/custom/plugins, Creating oh-my-zsh custom plugins forlders]
 
 - link:
-    ~/.oh-my-zsh/custom/themes/bullet-train.zsh-theme: oh-my-zsh/custom/themes/bullet-train/bullet-train.zsh-theme
-    ~/Library/Application Support/Code/User/keybindings.json: VSCode/keybindings.json
-    ~/Library/Application Support/Code/User/settings.json: VSCode/settings.json
-    ~/Library/Application Support/Spectacle/Shortcuts.json: spectacle.json
     ~/.gitconfig:
         path: gitconfig
         create: false
